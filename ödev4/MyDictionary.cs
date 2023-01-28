@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ödev4
+namespace odev4
 {
     internal class MyDictionary<TKey, TValue>
     {

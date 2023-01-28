@@ -3,7 +3,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Drawing;
 
-namespace ödev4
+namespace odev4
 {
     class program
     {
