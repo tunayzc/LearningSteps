@@ -16,7 +16,7 @@ namespace odev4
             ekranKartlari.Add(2, "3070");
             ekranKartlari.Add(3, "6700xt");
             ekranKartlari.Add(4, "3050");
-            Console.WriteLine(ekranKartlari[1]);
+            Console.WriteLine(ekranKartlari[2]);
         }       
     }
     

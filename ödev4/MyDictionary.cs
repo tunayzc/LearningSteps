@@ -16,17 +16,10 @@ namespace odev4
         public void Add(TKey key, TValue value)
         {
             KeyValuePair<TKey, TValue>[] tempArray = items;
-            items = new KeyValuePair<TKey, TValue>[items.Length + 1];
-            for (int i = 0; i < tempArray.Length; i++)
-            {
-                items[i] = tempArray[i];
-                
-            }
-            items[items.Length - 1] = new KeyValuePair<TKey, TValue>(key, value);
-            }
+
         }
     }
-
+}
         
         
   
